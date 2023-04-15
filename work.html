@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/9223451831.js" crossorigin="anonymous"></script>
+  
+<style></style>
+  <title>My Portfolio</title>
+</head>
+<body>
+<header>
+ <a href="#main" class="skip">Skip to main content</a>
+    <div class="navbar">
+        <ul>
+          <li><a  href="Index.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a class="active" href="work.html">Work</a></li>
+          <li><a href="about.html">Contact</a></li>
+        </ul>
+      </div>
+    
+  </header>
+
+  <main id="main">
+    <div id="myBtn3ontainer">
+      <button class="btn3 active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn3" onclick="filterSelection('painting')"> Paintings</button>
+      <button class="btn3" onclick="filterSelection('packaging')"> Packaging</button>
+      <button class="btn3" onclick="filterSelection('digital')"> Digital Art</button>
+    </div>
+    
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column painting">
+        <div class="content">
+          <img src="/images/painting1.jpg" alt="watercolor girl painting" style="width:100%">
+          <h4>Lost in the depth</h4>
+          <p>A Watercolor painting of a girl</p>
+        </div>
+      </div>
+      <div class="column painting">
+        <div class="content">
+          <img src="/images/painting2.jpg" alt="The war in my head" style="width:100%">
+          <h4>The war in my head</h4>
+          <p>A quick ccharcoal and pen sketch</p>
+        </div>
+      </div>
+      <div class="column painting">
+        <div class="content">
+          <img src="/images/painting4.jpg" alt="Indian monk" style="width:100%">
+          <h4>Simplicity</h4>
+          <p>Watercolor portrait on an Indian monk</p>
+        </div>
+      </div>
+    
+      <div class="column packaging">
+        <div class="content">
+          <img src="/images/packaging2.jpg" alt="Packaging sipper design" style="width:100%">
+          <h4>Merchandise Design</h4>
+          <p>Branding for ISDI</p>
+        </div>
+      </div>
+      <div class="column packaging">
+        <div class="content">
+          <img src="/images/packaging3.jpg" alt="Tea packaging" style="width:100%">
+          <h4>My Cuppa Tea</h4>
+          <p>Nestle's Foladable Tea Packs</p>
+        </div>
+      </div>
+      <div class="column packaging">
+        <div class="content">
+          <img src="/images/packaging1.jpg" alt="Nutrasecutical Packaging" style="width:100%">
+          <h4>Nutrolife Packaging</h4>
+          <p>Life project for packaging</p>
+        </div>
+      </div>
+    
+      <div class="column digital">
+        <div class="content">
+          <img src="/images/digital-2.jpg" alt="Digital Painting" style="width:100%">
+          <h4>Lost in this world</h4>
+          <p>Digital Art</p>
+        </div>
+      </div>
+      <div class="column digital">
+        <div class="content">
+          <img src="/images/digital.jpg" alt="Zac Efron Sketch" style="width:100%">
+          <h4>Zac Efron</h4>
+          <p>Digital Skecth</p>
+        </div>
+      </div>
+      <div class="column digital">
+        <div class="content">
+          <img src="/images/digital-3.jpg" alt="Badge Design" style="width:100%">
+          <h4>UMSI Badge Design</h4>
+          <p>Digital Badges for coursework</p>
+        </div>
+      </div>
+   
+
+    <footer>
+
+      </main>
+    </body>
+    <script src="script.js"></script>
+    </html>
